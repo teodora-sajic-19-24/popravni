@@ -3,7 +3,7 @@
 int main() {
   int godina;
 
-  printf("Unesi godinu: ");
+  printf("Unesite godinu: ");
   scanf("%d", &godina);
 
   if ((godina % 4 == 0 && godina % 100 != 0) || (godina % 400 == 0)) {
@@ -21,9 +21,9 @@ int main() {
   int b;
   int proizvod;
 
-  printf("Unesi prvi broj: ");
+  printf("Unesite prvi broj: ");
   scanf("%d", &a);
-  printf("Unesi drugi broj: ");
+  printf("Unesite drugi broj: ");
   scanf("%d", &b);
   proizvod = a * b;
   printf("Proizvod je: %d", proizvod)
